@@ -42,6 +42,16 @@ function App() {
 
   return (
     <div className="app-container">
+      {/* Ko-fi Donation Button */}
+      <a
+        href="https://ko-fi.com/shawn_dis"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="donation-btn"
+      >
+        ☕ Support This Tool
+      </a>
+
       <header>
         <h1>Texel Architect</h1>
         <p>Calculate and visualize consistent texture density for your environments.</p>
@@ -151,6 +161,25 @@ function App() {
           </p>
         </div>
       </main>
+
+      {/* Premium CTA Footer */}
+      <footer>
+        <div className="premium-cta">
+          <h3>🚀 Want More Power?</h3>
+          <p>Upgrade to Texel Architect Pro for saved presets, export reports, and team templates</p>
+          <a
+            href="https://gumroad.com/l/YOURPRODUCTLINK"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="premium-btn"
+          >
+            Get Pro Version - $5
+          </a>
+        </div>
+        <div className="footer-links">
+          Made with ❤️ by environment artists, for environment artists
+        </div>
+      </footer>
     </div>
   )
 }

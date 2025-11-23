@@ -20,6 +20,72 @@ header p {
   color: var(--text-muted);
 }
 
+.donation-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #ff5e5b;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  box-shadow: 0 4px 12px rgba(255, 94, 91, 0.3);
+  transition: all 0.2s;
+  z-index: 1000;
+}
+
+.donation-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(255, 94, 91, 0.5);
+}
+
+footer {
+  margin-top: 3rem;
+  padding: 2rem;
+  border-top: 1px solid var(--border);
+  text-align: center;
+}
+
+.premium-cta {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  padding: 2rem;
+  border-radius: 16px;
+  margin-bottom: 1.5rem;
+}
+
+.premium-cta h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.3rem;
+}
+
+.premium-cta p {
+  margin: 0 0 1rem 0;
+  opacity: 0.9;
+}
+
+.premium-btn {
+  background: white;
+  color: #10b981;
+  padding: 0.8rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  display: inline-block;
+  transition: all 0.2s;
+}
+
+.premium-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+}
+
+.footer-links {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
